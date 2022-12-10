@@ -3,27 +3,27 @@ import { Link } from 'react-router-dom';
 
 const Nav = () => {
     return (
-        <div>
-            <header aria-label="Page Header">
-                <div class="mx-auto max-w-screen-xl px-4 py-4 sm:py-12 sm:px-6 lg:px-8">
-                    <div class="sm:flex sm:items-center sm:justify-between">
-                        <div class="text-center sm:text-left">
-                            <h1 class="text-2xl font-bold text-gray-900 sm:text-3xl">
+        <>
+            <header aria-label="Page Header" className='lg:mb-0 sm:mb-30'>
+                <div className="mx-auto max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:px-8">
+                    <div className="sm:flex sm:items-center sm:justify-between">
+                        <div className="text-center sm:text-left">
+                            <h1 className="text-2xl font-bold text-cyan-900 sm:text-3xl">
                                 thesanchitadevi!
                             </h1>
 
-                            <p class="mt-1.5 text-sm text-gray-500">
+                            <p className="mt-1.5 text-sm text-cyan-800">
                                 Frontend Developer
                             </p>
                         </div>
 
                         <div class="mt-4 flex flex-col gap-4 sm:mt-0 sm:flex-row sm:items-center">
-                            <a href="https://drive.google.com/file/d/19l4GuCOJvAA-3RUn4lKgLALNiPBst1lm/view?usp=sharing" target="_blank">
+                            <a href="https://drive.google.com/file/d/19l4GuCOJvAA-3RUn4lKgLALNiPBst1lm/view?usp=sharing" class="inline-flex items-center justify-center rounded-lg border border-cyan-600 px-5 py-3 text-cyan-600 transition hover:bg-cyan-50 hover:text-cyan-800 focus:outline-none focus:ring" target="_blank">
                                 <button
-                                    class="inline-flex items-center justify-center rounded-lg border border-gray-200 px-5 py-3 text-gray-500 transition hover:bg-gray-50 hover:text-gray-700 focus:outline-none focus:ring"
+                                    className='flex justify-center'
                                     type="button"
                                 >
-                                    <span class="text-sm font-medium"> Resume </span>
+                                    <span class="text-sm font-medium"> View Website </span>
 
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
@@ -48,7 +48,7 @@ const Nav = () => {
                 </div>
             </header>
 
-        </div>
+        </>
     );
 };
 
