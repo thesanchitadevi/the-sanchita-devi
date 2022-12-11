@@ -1,8 +1,4 @@
 import React from 'react';
-import ePlatform from '../../../images/e-platform.jpg'
-import blackMarket from '../../../images/black-market.jpg'
-import mamasHouse from '../../../images/mamas-house.jpg'
-import { Link } from 'react-router-dom';
 import Loading from '../../Loading/Loading';
 import { useQuery } from '@tanstack/react-query';
 import ProjectCard from './ProjectCard';

@@ -22,7 +22,7 @@ const Banner = () => {
                     </p>
                     <div className='flex justify-center items-center space-x-5 mt-10 text-xl font-bold'>
                         <Link to='/about'>About</Link>
-                        <Link>Blog</Link>
+                        <Link to='/blog'>Blog</Link>
                 </div>
                 </div>
             </div>

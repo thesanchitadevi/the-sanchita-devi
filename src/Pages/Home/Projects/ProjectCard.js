@@ -5,7 +5,7 @@ const ProjectCard = ({ project }) => {
     const { id, title, details, img, live, projects } = project;
     return (
         <article className="flex flex-col bg-cyan-50 rounded-md">
-            <a rel="noopener noreferrer" href="https://wizard-platform-client.web.app/" target="_blank" >
+            <a rel="noopener noreferrer" href={live} target="_blank" >
                 <img alt="" className="object-cover w-full h-52 bg-cyan-900 p-3 rounded-md" src={img} />
             </a>
             <div className="flex flex-col flex-1 p-6">

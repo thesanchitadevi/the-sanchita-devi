@@ -1,7 +1,7 @@
 import React from 'react';
 
-const ProjectDetails = ({ projects }) => {
-    const { img1,img2, img3 } = projects;
+const ProjectDetails = () => {
+   
     return (
         <section>
             <div class="max-w-screen-xl px-4 py-8 mx-auto sm:px-6 sm:py-12 lg:px-8">
@@ -21,7 +21,7 @@ const ProjectDetails = ({ projects }) => {
                     <li>
                         <a href="#" class="relative block group">
                             <img
-                                src={img1}
+                               
                                 alt=""
                                 class="object-cover w-full transition duration-500 aspect-square group-hover:opacity-90"
                             />
@@ -39,7 +39,7 @@ const ProjectDetails = ({ projects }) => {
                     <li>
                         <a href="#" class="relative block group">
                             <img
-                                src={img2}
+                               
                                 alt=""
                                 class="object-cover w-full transition duration-500 aspect-square group-hover:opacity-90"
                             />
@@ -57,7 +57,7 @@ const ProjectDetails = ({ projects }) => {
                     <li class="lg:col-span-2 lg:col-start-2 lg:row-span-2 lg:row-start-1">
                         <a href="#" class="relative block group">
                             <img
-                                src={img3}
+                                
                                 alt=""
                                 class="object-cover w-full transition duration-500 aspect-square group-hover:opacity-90"
                             />
