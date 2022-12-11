@@ -1,6 +1,28 @@
 import React from 'react';
+import { toast } from 'react-hot-toast';
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
+    const handleSubmit = (event) => {
+        event.preventDefault();
+
+        emailjs
+            .sendForm(
+                "service_lnsaalf",
+                "template_zbmzk9w",
+                event.target,
+                "V1ydlFgp0EAEFuLDY"
+            )
+            .then(
+                (result) => {
+                    toast.success(result.text);
+                },
+                (error) => {
+                    toast.error(error.text);
+                }
+            );
+        event.target.reset();
+    };
     return (
         <section className="py-20 text-cyan-700">
             <div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
@@ -29,7 +51,7 @@ const Contact = () => {
                         </p>
                     </div>
                 </div>
-                <form novalidate="" className="flex flex-col py-6 space-y-6 md:py-0 md:px-6 ng-untouched ng-pristine ng-valid">
+                <form onSubmit={handleSubmit} className="flex flex-col py-6 space-y-6 md:py-0 md:px-6 ng-untouched ng-pristine ng-valid">
                     <label className="block">
                         <span className="mb-1">Full name</span>
                         <input placeholder='your name' className="block w-full px-4 py-2 text-gray-700 bg-white border rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 dark:focus:border-blue-300 focus:outline-none focus:ring focus:ring-opacity-40 mt-5" type="text" />
