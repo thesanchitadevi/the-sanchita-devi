@@ -19,7 +19,13 @@ const Nav = () => {
 
                         <div class="mt-4 flex flex-col gap-4 sm:mt-0 sm:flex-row sm:items-center">
                             <a 
-                                href="https://drive.google.com/file/d/19l4GuCOJvAA-3RUn4lKgLALNiPBst1lm/view?usp=sharing" class="inline-flex items-center justify-center rounded-lg border border-cyan-600 px-5 py-3 text-cyan-600 transition hover:bg-cyan-50 hover:text-cyan-800 focus:outline-none focus:ring" target="_blank" download="sanchitadevi.pdf">
+                                href="https://drive.google.com/file/d/19l4GuCOJvAA-3RUn4lKgLALNiPBst1lm/view?usp=sharing"
+                                
+                                class="inline-flex items-center justify-center rounded-lg border border-cyan-600 px-5 py-3 text-cyan-600 transition hover:bg-cyan-900 hover:text-cyan-100 focus:outline-none focus:ring"
+                                
+                                target="_blank"
+                                
+                                download="sanchitadevi.pdf">
                                 <button
                                     className='flex justify-center'
                                     type="button"

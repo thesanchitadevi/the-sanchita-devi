@@ -54,17 +54,17 @@ const Contact = () => {
                 <form onSubmit={handleSubmit} className="flex flex-col py-6 space-y-6 md:py-0 md:px-6 ng-untouched ng-pristine ng-valid">
                     <label className="block">
                         <span className="mb-1">Full name</span>
-                        <input placeholder='your name' className="block w-full px-4 py-2 text-gray-700 bg-white border rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 dark:focus:border-blue-300 focus:outline-none focus:ring focus:ring-opacity-40 mt-5" type="text" />
+                        <input placeholder='your name' className="block w-full px-4 py-2 text-cyan-700 bg-white bg-opacity-75 border rounded-md  dark:border-cyan-600 focus:border-blue-400 focus:ring-blue-300 dark:focus:border-blue-300 focus:outline-none focus:ring focus:ring-opacity-40 mt-5" type="text" />
                     </label>
                     <label className="block">
                         <span className="mb-1">Email address</span>
-                        <input placeholder='name@mail.com' className="block w-full px-4 py-2 text-gray-700 bg-white border rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 dark:focus:border-blue-300 focus:outline-none focus:ring focus:ring-opacity-40 mt-5" type="email"/>
+                        <input placeholder='name@mail.com' className="block w-full px-4 py-2 text-cyan-700 bg-white bg-opacity-75 border rounded-md  focus:border-blue-400 focus:ring-blue-300 dark:focus:border-blue-300 focus:outline-none focus:ring focus:ring-opacity-40 mt-5" type="email"/>
                     </label>
                     <label className="block">
                         <span className="mb-1">Message</span>
-                        <textarea rows="3" className="block w-full px-4 py-2 text-gray-700 bg-white border rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 dark:focus:border-blue-300 focus:outline-none focus:ring focus:ring-opacity-40 mt-5"></textarea>
+                        <textarea rows="3" className="block w-full px-4 py-2 text-cyan-700 bg-white bg-opacity-75 border rounded-md focus:border-blue-400 focus:ring-blue-300 dark:focus:border-blue-300 focus:outline-none focus:ring focus:ring-opacity-40 mt-5"></textarea>
                     </label>
-                    <button type="button" className="self-center px-8 py-2 text-lg rounded  bg-cyan-700 text-cyan-100 ">Submit</button>
+                    <button type="button" className="self-center px-8 py-2 text-lg rounded  bg-cyan-900 text-cyan-100 ">Submit</button>
                 </form>
             </div>
         </section>

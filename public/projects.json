@@ -1,0 +1,53 @@
+[
+    {
+        "id": 1,
+        "service_id": "02",
+        "title": "E-Platform",
+        "details": "A learning platform where you can develop your skill.",
+        "img": "/images/e-platform.jpg",
+        "live": "https://wizard-platform-client.web.app/",
+        "projects": [
+            {
+                "img1": "https://www.digitaltrends.com/wp-content/uploads/2021/09/iphone-13-pro-review-dan-baker-40.jpg?p=1",
+                "img2": "https://www.digitaltrends.com/wp-content/uploads/2021/09/iphone-13-pro-review-dan-baker-40.jpg?p=1",
+                "img3": "https://www.digitaltrends.com/wp-content/uploads/2021/09/iphone-13-pro-review-dan-baker-40.jpg?p=1",
+                "server": "https://github.com/thesanchitadevi/e-platform-servers",
+                "client": "https://github.com/thesanchitadevi/e-platform-client"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "service_id": "03",
+        "title": "Black-Market",
+        "details": "A resale product based fullstack web app.",
+        "img": "/images/black-market.jpg",
+        "live": "https://black-market-ce97c.web.app/",
+        "projects": [
+            {
+                "img1": "wizard-platform-client.web.app_courses__id (1)",
+                "img2": "wizard-platform-client.web.app_courses__id (2)",
+                "img3": "wizard-platform-client.web.app_courses__id (3)",
+                "server": "Dhaka",
+                "client": "1420"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "service_id": "01",
+        "title": "Mamas-House",
+        "details": "A cloud kitchen web app who provides different types of cuisines.",
+        "img": "/images/mamas-house.jpg",
+        "live": "https://mamas-house-e9df3.web.app/",
+        "projects": [
+            {
+                "img1": "https://www.digitaltrends.com/wp-content/uploads/2021/09/iphone-13-pro-review-dan-baker-40.jpg?p=1",
+                "img2": "https://www.digitaltrends.com/wp-content/uploads/2021/09/iphone-13-pro-review-dan-baker-40.jpg?p=1",
+                "img3": "https://www.digitaltrends.com/wp-content/uploads/2021/09/iphone-13-pro-review-dan-baker-40.jpg?p=1",
+                "server": "Dhaka",
+                "client": "1420"
+            }
+        ]
+    }
+]

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Banner = () => {
     return (
@@ -19,6 +20,10 @@ const Banner = () => {
                         I am a Passionate Frontend Web Developer, fast learner, and team player
                         also have strong desire to develop professionally and constantly enhance my skills.
                     </p>
+                    <div className='flex justify-center items-center space-x-5 mt-10 text-xl font-bold'>
+                        <Link to='/about'>About</Link>
+                        <Link>Blog</Link>
+                </div>
                 </div>
             </div>
         </section>

@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <footer aria-label="Site Footer" >
             <div className="mx-auto max-w-5xl px-4 py-10 sm:px-6 lg:px-8">
-                <div className="flex justify-center text-teal-600">
+                <div className="flex justify-center text-cyan-700">
                     <h1>© thesanchitadevi</h1>
                 </div>
 
