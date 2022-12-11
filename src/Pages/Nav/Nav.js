@@ -8,11 +8,11 @@ const Nav = () => {
                 <div className="mx-auto max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:px-8">
                     <div className="sm:flex sm:items-center sm:justify-between">
                         <div className="text-center sm:text-left">
-                            <h1 className="text-2xl font-bold text-cyan-900 sm:text-3xl">
+                            <h1 className="text-2xl font-bold text-sky-900 sm:text-3xl">
                                 thesanchitadevi!
                             </h1>
 
-                            <p className="mt-1.5 text-sm text-cyan-800">
+                            <p className="mt-1.5 text-sm text-sky-800">
                                 Frontend Developer
                             </p>
                         </div>
@@ -21,7 +21,7 @@ const Nav = () => {
                             <a 
                                 href="https://drive.google.com/file/d/19l4GuCOJvAA-3RUn4lKgLALNiPBst1lm/view?usp=sharing"
                                 
-                                class="inline-flex items-center justify-center rounded-lg border border-cyan-600 px-5 py-3 text-cyan-600 transition hover:bg-cyan-900 hover:text-cyan-100 focus:outline-none focus:ring"
+                                class="inline-flex items-center justify-center rounded-lg border border-sky-600 hover:border-sky-100 px-5 py-3 text-sky-600 transition  hover:text-gray-100 focus:outline-none focus:ring"
                                 
                                 target="_blank"
                                 

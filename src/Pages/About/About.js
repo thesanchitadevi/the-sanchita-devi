@@ -6,7 +6,7 @@ const About = () => {
         <div>
             <section class="py-12">
             <div class="w-full lg:w-5/12 px-4 mx-auto">
-                    <div class="relative flex flex-col min-w-0 break-words bg-cyan-900 bg-clip-padding backdrop-filter backdrop-blur-lg  bg-opacity-10 w-full mb-6 shadow-cyan-700/40 shadow-lg rounded-lg">
+                    <div class="relative flex flex-col min-w-0 break-words bg-cyan-900 bg-clip-padding backdrop-filter backdrop-blur-lg  bg-opacity-0 w-full mb-6 shadow-cyan-700/40 shadow-lg rounded-lg">
                     <div class="px-6">
                         <div class="flex flex-wrap justify-center">
                             <div class="w-full px-4 flex justify-center">
@@ -16,19 +16,19 @@ const About = () => {
                             </div>
                         </div>
                         <div class="text-center mt-12">
-                            <h3 class="text-xl font-semibold leading-normal mb-2 text-cyan-500 ">
+                            <h3 class="text-xl font-semibold leading-normal mb-2 text-gray-200 ">
                                 Sanchita Devi
                             </h3>
-                            <div class="text-sm leading-normal mt-0 mb-2 text-cyan-700 font-bold uppercase">
+                            <div class="text-sm leading-normal mt-0 mb-2 text-gray-300 font-bold uppercase">
                                 <i class="fas fa-map-marker-alt mr-2 text-lg text-cyan-800"></i>
                                 Dhaka, Bangladesh
                             </div>
-                            <div class="mb-2 text-cyan-800 mt-10">
-                                <i class="fas fa-briefcase mr-2 text-lg text-cyan-800"></i>
+                            <div class="mb-2 text-gray-100 mt-10">
+                                <i class="fas fa-briefcase mr-2 text-lg text-gray-100"></i>
                                 Frontend Developer
                             </div>
-                            <div class=" text-cyan-800">
-                                <i class="fas fa-university mr-2 text-lg text-cyan-800"></i>
+                            <div class=" text-gray-100">
+                                <i class="fas fa-university mr-2 text-lg text-gray-100"></i>
                                 National University of Bangladesh
                                 </div>
                                 <ul className="mt-5 flex justify-center gap-6 md:gap-8">
@@ -37,7 +37,7 @@ const About = () => {
                                             href="https://www.facebook.com/thesanchitadevi/"
                                             rel="noreferrer"
                                             target="_blank"
-                                            className="text-cyan-700 transition hover:text-cyan-700/75"
+                                            className="text-gray-100 transition hover:text-cyan-700/75"
                                         >
                                             <span className="sr-only">Facebook</span>
                                             <svg
@@ -59,7 +59,7 @@ const About = () => {
                                             href="https://github.com/thesanchitadevi"
                                             rel="noreferrer"
                                             target="_blank"
-                                            className="text-cyan-700 transition hover:text-cyan-700/75"
+                                            className="text-gray-100 transition hover:text-cyan-700/75"
                                         >
                                             <span className="sr-only">GitHub</span>
                                             <svg
@@ -82,10 +82,10 @@ const About = () => {
                         <div class="mt-10 py-10 border-t border-cyan-800 text-center">
                             <div class="flex flex-wrap justify-center">
                                 <div class="w-full lg:w-9/12 px-4">
-                                    <p class="mb-4 text-lg leading-relaxed text-cyan-800">
+                                    <p class="mb-4 text-lg leading-relaxed text-sky-100">
                                         I am a Frontend Web Developer adept at building user-friendly responsive web application. Passionate about learning new technologies. bringing ideas to life, and working with dedicated teams to build efficient and robust applications suited to the user's needs.
                                     </p>
-                                    <Link to="/" class="font-normal underline text-cyan-800">
+                                    <Link to="/" class="font-normal underline text-sky-600">
                                         Home
                                     </Link>
                                 </div>

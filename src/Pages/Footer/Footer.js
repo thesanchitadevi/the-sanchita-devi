@@ -4,8 +4,8 @@ const Footer = () => {
     return (
         <footer aria-label="Site Footer" >
             <div className="mx-auto max-w-5xl px-4 py-10 sm:px-6 lg:px-8">
-                <div className="flex justify-center text-cyan-700">
-                    <h1>© thesanchitadevi</h1>
+                <div className="flex justify-center text-cyan-800">
+                    <h1>Copyright © 2022, thesanchitadevi</h1>
                 </div>
 
                
@@ -15,7 +15,7 @@ const Footer = () => {
                             href="https://www.facebook.com/thesanchitadevi/"
                             rel="noreferrer"
                             target="_blank"
-                            className="text-cyan-700 transition hover:text-cyan-700/75"
+                            className="text-cyan-800 transition hover:text-cyan-900/75"
                         >
                             <span className="sr-only">Facebook</span>
                             <svg
@@ -37,7 +37,7 @@ const Footer = () => {
                             href="https://github.com/thesanchitadevi"
                             rel="noreferrer"
                             target="_blank"
-                            className="text-cyan-700 transition hover:text-cyan-700/75"
+                            className="text-cyan-800 transition hover:text-cyan-900/75"
                         >
                             <span className="sr-only">GitHub</span>
                             <svg

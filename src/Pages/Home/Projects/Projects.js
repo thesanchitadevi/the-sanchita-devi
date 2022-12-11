@@ -19,11 +19,11 @@ const Projects = () => {
     }
 
     return (
-        <section className="py-0 sm:py-12 text-cyan-700 ">
+        <section className="py-0 sm:py-12 text-sky-700 ">
             <div className="container p-6 mx-auto space-y-8">
                 <div className="space-y-2 text-center">
                     <h2 className="text-4xl font-bold">My Projects</h2>
-                    <p className=" text-sm text-cyan-800">Listing some of my recent projects.</p>
+                    <p className=" text-md text-gray-500">Listing some of my recent projects.</p>
                 </div>
                 <div className="grid grid-cols-1 gap-x-4 gap-y-8 md:grid-cols-2 lg:grid-cols-3 ">
                     {
