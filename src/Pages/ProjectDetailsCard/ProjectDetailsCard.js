@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const ProjectDetailsCard = ({ site }) => {
     const { img1, img2, img3, server, client } = site;
@@ -12,7 +13,9 @@ const ProjectDetailsCard = ({ site }) => {
                 <p class="max-w-md mx-auto mt-4 text-gray-300 text-lg">
                     <a href={server} target="_blank">Server Side</a> || 
                     {" "}<a href={client} target="_blank">Client Side</a>
-                   
+                </p>
+                <p class="max-w-md mx-auto mt-2 text-gray-300 text-md">
+                    <Link to="/" className='underline'>Home</Link> 
                 </p>
             </header>
 
@@ -24,7 +27,6 @@ const ProjectDetailsCard = ({ site }) => {
                             <span className="text-xs uppercase text-gray-400">Join, it's free</span>
                             <h3 className="text-3xl font-bold">We're not reinventing the wheel</h3>
                             <p className="my-6 text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor aliquam possimus quas, error esse quos.</p>
-                            <button type="button" className="self-start">Action</button>
                         </div>
                     </div>
                     <div className="flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row-reverse">
@@ -33,7 +35,6 @@ const ProjectDetailsCard = ({ site }) => {
                             <span className="text-xs uppercase text-gray-400">Join, it's free</span>
                             <h3 className="text-3xl font-bold">We're not reinventing the wheel</h3>
                             <p className="my-6 text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor aliquam possimus quas, error esse quos.</p>
-                            <button type="button" className="self-start">Action</button>
                         </div>
                     </div>
                     <div className="flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row">
@@ -42,7 +43,6 @@ const ProjectDetailsCard = ({ site }) => {
                             <span className="text-xs uppercase text-gray-400">Join, it's free</span>
                             <h3 className="text-3xl font-bold">We're not reinventing the wheel</h3>
                             <p className="my-6 text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor aliquam possimus quas, error esse quos.</p>
-                            <button type="button" className="self-start">Action</button>
                         </div>
                     </div>
                 </div>

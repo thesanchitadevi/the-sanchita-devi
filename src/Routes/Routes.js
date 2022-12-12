@@ -18,7 +18,7 @@ const router = createBrowserRouter([
             {
                 path: '/projectDetails/:id',
                 element: <ProjectDetails></ProjectDetails>,
-                loader: ({ params }) => fetch(`http://localhost:5000/projects/${params.id}`)
+                loader: ({ params }) => fetch(`https://portfolio-server-coral.vercel.app/projects/${params.id}`)
             },
         ]
     },
