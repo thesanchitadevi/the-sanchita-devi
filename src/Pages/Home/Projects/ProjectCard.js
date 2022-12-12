@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const ProjectCard = ({ project }) => {
-    const { id, title, details, img, live, projects } = project;
+    const { _id, title, details, img, live} = project;
     return (
         <article className="flex flex-col bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-lg  bg-opacity-0 border border-gray-700">
             <a rel="noopener noreferrer" href={live} target="_blank" >
@@ -13,7 +13,7 @@ const ProjectCard = ({ project }) => {
                 <a rel="noopener noreferrer" href={live} className="text-xs tracking-wider uppercase hover:underline text-gray-100" target="_blank">{title}</a>
                 <h3 className="flex-1 py-2 text-lg font-semibold leading-snug text-gray-400">{details}</h3>
                 <Link
-                    to={`/projectDetails/${id}`}
+                    to={`/projectDetails/${_id}`}
                     class="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-gray-200"
                 >
                     Explore more

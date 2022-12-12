@@ -6,7 +6,7 @@ const About = () => {
         <div>
             <section class="py-12">
             <div class="w-full lg:w-5/12 px-4 mx-auto">
-                    <div class="relative flex flex-col min-w-0 break-words bg-cyan-900 bg-clip-padding backdrop-filter backdrop-blur-lg  bg-opacity-0 w-full mb-6 shadow-cyan-700/40 shadow-lg rounded-lg">
+                    <div class="relative flex flex-col min-w-0 break-words bg-cyan-900 bg-clip-padding backdrop-filter backdrop-blur-lg  bg-opacity-0 w-full mb-6 shadow-gray-600/50 shadow-lg rounded-lg">
                     <div class="px-6">
                         <div class="flex flex-wrap justify-center">
                             <div class="w-full px-4 flex justify-center">
@@ -79,13 +79,13 @@ const About = () => {
 
                                 </ul>
                         </div>
-                        <div class="mt-10 py-10 border-t border-cyan-800 text-center">
+                        <div class="mt-10 py-10 border-t border-gray-700 text-center">
                             <div class="flex flex-wrap justify-center">
                                 <div class="w-full lg:w-9/12 px-4">
                                     <p class="mb-4 text-lg leading-relaxed text-sky-100">
                                         I am a Frontend Web Developer adept at building user-friendly responsive web application. Passionate about learning new technologies. bringing ideas to life, and working with dedicated teams to build efficient and robust applications suited to the user's needs.
                                     </p>
-                                    <Link to="/" class="font-normal underline text-sky-600">
+                                    <Link to="/" class="font-normal underline text-gray-600">
                                         Home
                                     </Link>
                                 </div>
