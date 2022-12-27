@@ -10,7 +10,9 @@
                 "img1": "/images/e-platform1.png",
                 "point1": "Total courses number is 6. Each course has several more items.",
                 "img2": "/images/e-platform2.png",
+                "point2": "Blog page where some common queries has been answered",
                 "img3": "/images/e-platform3.png",
+                "point3": "Individual 6 courses have course details button which will direct you to the details page.",
                 "server": "https://github.com/thesanchitadevi/e-platform-servers",
                 "client": "https://github.com/thesanchitadevi/e-platform-client"
             }
